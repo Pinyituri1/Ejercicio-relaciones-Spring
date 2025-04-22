@@ -12,9 +12,9 @@ public class SwaggerConfiguration {
     public OpenAPI customOpenAPI() {
         return new OpenAPI()
                 .info(new Info()
-                        .title("API de Papeleria")
+                        .title("API de Equipo")
                         .version("1.0")
-                        .description("Documentación de la API para gestionar Papeleria")
+                        .description("Documentación de la API para gestionar Equipo")
                         .contact(new Contact()
                                 .name("Soporte API")
                                 .email("jfernandotrujillo@ucundinamarca.edu.co")));
